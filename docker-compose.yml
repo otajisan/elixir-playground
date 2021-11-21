@@ -6,3 +6,4 @@ services:
     volumes:
       - .:/work
     working_dir: /work
+    entrypoint: ['']
