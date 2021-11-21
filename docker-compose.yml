@@ -1,0 +1,8 @@
+version: '3'
+services:
+  elixir-playground:
+    build:
+      context: .
+    volumes:
+      - .:/work
+    working_dir: /work
